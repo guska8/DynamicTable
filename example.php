@@ -8,7 +8,7 @@ $(document).ready(function(){
 	var tbl = $("#tbl");
 	
 	//Start the plugin
-	tbl.DynamicTable({table: tbl});
+	tbl.DynamicTable({table: tbl, rawCss: true});
 	
 	//Add a line
 	//AddLn();
