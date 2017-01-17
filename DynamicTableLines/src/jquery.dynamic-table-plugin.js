@@ -20,10 +20,10 @@
 
 		if (settings.rawCss === false) {
 			var BtnClass = $('<style>.btnAddLn {' + 'background-color:#44c767;' + '-moz-border-radius:20px;' + '-webkit-border-radius:20px;' + 'border-radius:20px;' + 'border:3px solid #e0e0e0;'
-					+ 'cursor:pointer;' + 'color:#ffffff;' + 'font-size:25px;' + 'font-weight:bold;' + 'padding:2px 10px;' + 'text-shadow:0px 2px 10px #28661e;}</style>');
+					+ 'cursor:pointer;' + 'color:#ffffff;' + 'font-size:20px;' + 'font-weight:bold;' + 'padding:1px 7px;' + 'text-shadow:0px 2px 10px #28661e;}</style>');
 			$('html > head').append(BtnClass);
-			var BtnClass = $('<style>.btnRmvLn {background-color:#e03319;' + '-moz-border-radius:18px;' + '-webkit-border-radius:18px;' + 'border-radius:18px;' + 'border:3px solid #e0e0e0;'
-					+ 'cursor:pointer;' + 'color:#ffffff;' + 'font-size:25px;' + 'font-weight:bold;' + 'padding:2px 12px;' + 'text-shadow:0px 2px 10px #cc3922;}</style>');
+			var BtnClass = $('<style>.btnRmvLn {background-color:#e03319;' + '-moz-border-radius:20px;' + '-webkit-border-radius:20px;' + 'border-radius:20px;' + 'border:3px solid #e0e0e0;'
+					+ 'cursor:pointer;' + 'color:#ffffff;' + 'font-size:20px;' + 'font-weight:bold;' + 'padding:1px 10px;' + 'text-shadow:0px 2px 10px #cc3922;}</style>');
 			$('html > head').append(BtnClass);
 		}
 
