@@ -1,0 +1,51 @@
+<html>
+<head>
+<!-- JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- CSS for DTL buttons-->
+<link rel="stylesheet" href="../dist/css/dtl-style.css">
+<!-- Plugin DTL -->
+<script type="text/javascript" src="../dist/js/jquery.dtl.js"></script>
+<script>
+$(document).ready(function(){
+	//Get table reference
+	var tbl = $("#tbl");
+	
+	//Start the plugin
+	$(this).DynamicTable({table: tbl});
+	
+	
+	//Add a line
+	//AddLn();
+	
+	//Remove last line
+	//RmvLn(tabela.find("tr:last"));
+});
+</script>
+<style>
+table, th, td {
+	border: 1px solid black;
+}
+
+th, td, input[type=text] {
+	min-width: 80px;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+	<BR>
+	<table id="tbl">
+		<tbody>
+			<tr>
+				<th>Product ID</th>
+				<th>Quantity</th>
+			</tr>
+			<tr>
+				<td><input type="text" name="id" value="0"></td>
+				<td><input type="text" name="id" value="0"></td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

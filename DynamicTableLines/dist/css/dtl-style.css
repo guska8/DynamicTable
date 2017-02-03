@@ -1,0 +1,23 @@
+.btnAddLn, .btnRmvLn{
+	display: inline-block;
+	height: 24px;
+	line-height: 10px;
+	width: 24px;
+	border: 2px solid #777;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	cursor: pointer;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+	font-size: 18px;
+	padding: 3px;
+}
+.btnAddLn{
+	background-color:#44c767;
+}
+
+.btnRmvLn {
+	background-color:#e03319;
+}
